@@ -23,9 +23,10 @@
         exit();
         
     } else {
-        $dsn = 'mysql:host=localhost;dbname=fc_riko;charset=utf8';
-        $db_user = 'fc_riko';
-        $db_pass = 'fc_riko';
+        // DB接続情報はサンプルです。
+        $dsn = 'mysql:host=localhost;dbname=SAMPLE;charset=utf8';
+        $db_user = 'sample';
+        $db_pass = 'sample';
 
         try {
             $pdo = new PDO($dsn, $db_user, $db_pass);
